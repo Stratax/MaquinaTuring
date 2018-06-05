@@ -1,0 +1,14 @@
+//d las funciones delta 
+//los Simbolos D e I se toman como Derecha e Izquierda respectivamente
+
+d(q0,0)-(q1,X,D)
+d(q0,Y)-(q3,Y,D)
+d(q1,0)-(q1,0,D)
+d(q1,1)-(q2,Y,I)
+d(q1,Y)-(q1,Y,D)
+d(q2,0)-(q2,0,D)
+d(q2,X)-(q0,0,D)
+d(q2,Y)-(q2,0,D)
+d(q3,Y)-(q3,0,D)
+d(q3,B)-(q4,0,D)
+*(q4,*)
