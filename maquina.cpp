@@ -56,7 +56,7 @@ MaquinaTuring::MaquinaTuring(){
 
   ifstream maquina2("test.txt");
   int counter=0,statesCounter=0;
-  
+
 
   if(maquina2.is_open()){
     while (getline(maquina2,line)) {
