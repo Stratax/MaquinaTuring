@@ -1,7 +1,7 @@
 /********************************************************************
 +   Implementación de las clases "Delta" y "MaquinaTuring"          *
 +   Autor: López Calderón Adrián Aberto                             *
-+   Escuela Superior de Cómputo (ESCOM-IPN)                         *
++   Escuela Superior de Cómputo (ESCOM-IPN)  v1.0                       *
 *********************************************************************/
 
 
