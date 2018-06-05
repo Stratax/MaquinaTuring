@@ -1,7 +1,7 @@
 /********************************************************************
 +   Implementación de las clases "Delta" y "MaquinaTuring"          *
 +   Autor: López Calderón Adrián Aberto                             *
-+   Escuela Superior de Cómputo (ESCOM-IPN)                         *
++   Escuela Superior de Cómputo (ESCOM-IPN)  v1.0                       *
 *********************************************************************/
 
 
@@ -56,7 +56,7 @@ MaquinaTuring::MaquinaTuring(){
 
   ifstream maquina2("test.txt");
   int counter=0,statesCounter=0;
-  
+
 
   if(maquina2.is_open()){
     while (getline(maquina2,line)) {
