@@ -20,28 +20,39 @@ private:
   char targetState;
   char currentSymbol;
   char targetSymbol;
-  int movment; // 0:left 1:right
+  int movment; // -1:left 1:right
 public:
   Delta();
   void setFunction(string chain);
   char getCurrentState(){return currentState;}
   char getTargetState(){return targetState;}
   char getCurrentSymbol(){return currentSymbol;}
-  char getTargetStateSymbol(){return targetSymbol;}
+  char getTargetSymbol(){return targetSymbol;}
   int getMovment(){return movment;}
-  void printFunction();
+  void getFunction();
 };
 
 class MaquinaTuring{
 private:
   int states;
-  int accept;
+  char accept;
   Delta *table;
   int nFunctions;
+  string cadena="";
+
+
 public:
-  MaquinaTuring();
+  MaquinaTuring(string file);
   ~MaquinaTuring();
   Delta getDelta(int i){return table[i];}
+  int findDelta(char state, char symbol);
+  int getStates(){return states;}
+  char getAccept(){return accept;}
+  string getCadena(){return cadena;}
+  void setCadena(string c){cadena = c;}
+
+  //Funciones Auxiliares///
+  void printTable();
 };
 
 #endif
