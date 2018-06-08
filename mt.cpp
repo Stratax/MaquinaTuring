@@ -28,7 +28,7 @@ int main(int argc, char const *argv[]) {
     c_aux[i-1]=mt.getDelta(index).getTargetSymbol();
     currentState = mt.getDelta(index).getTargetState();
     i+= mt.getDelta(index).getMovment();
-    pausa(100);
+    pausa(200);
   }
 
 

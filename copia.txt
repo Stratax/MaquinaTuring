@@ -1,0 +1,30 @@
+//Máquina que acepta L={w=[01]*}
+//López Calderón Adrián Alberto
+//d las funciones delta
+//los Símbolos D e I se toman como Derecha e Izquierda respectivamente
+//* estado de aceptación
+
+d(q0,0)-(q1,X,D)
+d(q0,1)-(q2,Y,D)
+d(q0,B)-(q6,B,I)
+d(q1,0)-(q1,0,D)
+d(q1,1)-(q1,1,D)
+d(q1,B)-(q3,B,D)
+d(q2,0)-(q2,0,D)
+d(q2,1)-(q2,1,D)
+d(q2,B)-(q4,B,D)
+d(q3,B)-(q5,0,I)
+d(q3,0)-(q3,0,D)
+d(q3,1)-(q3,1,D)
+d(q4,B)-(q5,1,I)
+d(q4,0)-(q4,0,D)
+d(q4,1)-(q4,1,D)
+d(95,B)-(q5,B,I)
+d(q5,0)-(q5,0,I)
+d(q5,1)-(q5,1,I)
+d(q5,X)-(q0,X,D)
+d(q5,Y)-(q0,Y,D)
+d(q6,B)-(q7,B,D)
+d(q6,X)-(q6,0,I)
+d(q6,Y)-(q6,1,I)
+*(q7,*)

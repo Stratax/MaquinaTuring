@@ -3,6 +3,7 @@
 //d las funciones delta
 //los Símbolos D e I se toman como Derecha e Izquierda respectivamente
 //* estado de aceptación
+
 d(q0,0)-(q1,X,D)
 d(q0,Y)-(q3,Y,D)
 d(q1,0)-(q1,0,D)
